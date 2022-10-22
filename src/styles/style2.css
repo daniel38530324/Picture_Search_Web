@@ -1,0 +1,7 @@
+div.icon {
+  visibility: hidden;
+}
+
+.imageContainer:hover div.icon {
+  visibility: visible;
+}
