@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Search from "../components/Search";
 import Picture from "../components/Picture";
 import Pucture2 from "../pictures/logo_s.png";
+import { useProducts } from '../react-query';
 
 const Homepage = () => {
   let [input, setInput] = useState("");
