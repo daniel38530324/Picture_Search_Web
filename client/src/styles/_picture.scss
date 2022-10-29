@@ -1,0 +1,48 @@
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .picture {
+    padding: 1rem;
+    width: 350px;
+    margin-bottom: 1rem;
+    .imageContainer {
+      overflow: hidden;
+      height: 250px;
+      height: 350px;
+      margin-bottom: 1rem;
+
+      img {
+        width: 250px;
+        height: 350px;
+        object-fit: cover;
+        transition: all 0.3s ease;
+        position: absolute;
+        border-radius: 8%;
+        z-index: -1;
+      }
+      div.icon {
+        display: flex;
+        width: 250px;
+        height: 350px;
+        z-index: 3;
+        background-color: rgba($color: #382928, $alpha: 0.5);
+        a {
+          position: relative;
+          width: 20px;
+          height: 20px;
+          left: 11vw;
+          top: 20vw;
+          margin-left: 0.5rem;
+          z-index: 5;
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
