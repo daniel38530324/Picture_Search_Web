@@ -49,12 +49,13 @@ ul {
 }
 .morePicture button {
   font-family: "myFont2", sans-serif;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 1rem;
   font-size: 2rem;
   border: none;
   background-color: rgb(204, 164, 166);
   color: rgb(56, 41, 40);
   cursor: pointer;
+  border-radius: 15px;
 }
 
 .error {
@@ -75,7 +76,10 @@ ul {
     margin-right: 0rem;
     margin-left: 1rem;
   }
-  body .picture {
+  body .pictures {
+    padding-left: 0rem;
+  }
+  body .pictures .picture {
     margin-left: 3.5rem;
   }
   body div.about nav {
@@ -128,7 +132,6 @@ nav {
   position: sticky;
   top: 0px;
   z-index: 3;
-  box-shadow: 3px 1px 5px 4px #5e5e5e;
 }
 nav img {
   width: 50px;
@@ -160,7 +163,7 @@ nav ul li a {
   border-radius: 30px;
   font-size: 1.25rem;
   width: 40vw;
-  height: 7vh;
+  height: 6vh;
   margin-right: 40rem;
   border: none;
 }
@@ -183,6 +186,7 @@ nav ul li a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-left: 3rem;
 }
 .pictures .picture {
   padding: 1rem;
@@ -210,7 +214,8 @@ nav ul li a {
   width: 250px;
   height: 350px;
   z-index: 3;
-  background-color: rgba(56, 41, 40, 0.5);
+  border-radius: 8%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .pictures .picture .imageContainer div.icon a {
   position: relative;
@@ -219,11 +224,12 @@ nav ul li a {
   left: 11vw;
   top: 20vw;
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
   z-index: 5;
 }
 .pictures .picture .imageContainer div.icon a img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .about section.contact {

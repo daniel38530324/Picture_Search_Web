@@ -51,12 +51,13 @@ ul {
 
   button {
     font-family: "myFont2", sans-serif;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25rem 1rem;
     font-size: 2rem;
     border: none;
     background-color: rgb(204, 164, 166);
     color: rgb(56, 41, 40);
     cursor: pointer;
+    border-radius: 15px;
   }
 }
 
@@ -81,9 +82,13 @@ ul {
         }
       }
     }
-    .picture {
-      margin-left: 3.5rem;
+    .pictures {
+      padding-left: 0rem;
+      .picture {
+        margin-left: 3.5rem;
+      }
     }
+
     div.about {
       nav {
         width: 100%;
